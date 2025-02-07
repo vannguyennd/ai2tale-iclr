@@ -9,19 +9,16 @@ We implemented our proposed AI2TALE method in Python using Tensorflow (version 2
 The "phishingdata" folder contains all the data files needed for the training and testing (inference) processes of our proposed AI2TALE method. Please download this folder including all of its files at [https://drive.google.com/drive/folders/1xdShRTCu_EvdRzccszcR8RyUwVG4lJYd?usp=sharing](https://drive.google.com/drive/folders/1-ob6rJ-Cl6r4u2rs6v_4v85PBQwwHt6V?usp=sharing).
 
 ## Running AI2TALE
-To train our proposed AI2TALE, run the following command, for example:<br/>
-*python ai2tale.py --train*
+To train our proposed AI2TALE, run the following command, for example: *python ai2tale.py --train*
 
 Note that: in the above command, we use the sample and default values for the hyperparameters. To change the value of the hyperparameters such as the learning rate, the batch size, and the trade-off, please change the corresponding arguments (refer to the *__main__* function in ai2tale.py for details).
 
-To generate the selected data for the testing set using our AI2TALE trained model, run the following command, for example:<br/>
-*python ai2tale.py*
+To generate the selected data for the testing set using our AI2TALE trained model, run the following command, for example: *python ai2tale.py*
 
 Note that: please also set the values for the hyperparameters as used in the training process. That will be useful to locate the corresponding trained model.
 
 ## Measures
-To obtain the values for the metrics (i.e., Label-Accuracy, Cognitive-True-Positive, F1-score, FPR, FNR) used in our paper, run the following command, for example: <br/>
-*python ai2tale_measures.py*
+To obtain the values for the metrics (i.e., Label-Accuracy, Cognitive-True-Positive, F1-score, FPR, FNR) used in our paper, run the following command, for example: *python ai2tale_measures.py*
 
 Note that: please set the values for the hyperparameters as used in the testing process. That will be useful for locating the corresponding folder where the selected data is saved.
 
