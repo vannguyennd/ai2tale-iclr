@@ -32,6 +32,6 @@ If you reference our paper (and/or) use our source code samples in your work, pl
 @inproceedings{nguyen-ai2tale-iclr2025,<br/>
       author={Van Nguyen and Tingmin Wu and Xingliang Yuan and Marthie Grobler and Surya Nepal and Carsten Rudolph},<br/>
       title={AI2TALE: An Innovative Information Theory-based Approach for Learning to Localize Phishing Attacks},<br/>
-      booktitle={The 13th International Conference on Learning Representations (ICLR)},<br/>
+      booktitle={The Thirteenth International Conference on Learning Representations (ICLR)},<br/>
       year={2025}<br/>
 }
