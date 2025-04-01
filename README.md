@@ -1,6 +1,6 @@
 # AI2TALE
 
-This repository contains source code samples for reproducing the experiments of our proposed AI2TALE method in our paper "AI2TALE: An Innovative Information Theory-based Approach for Learning to Localize Phishing Attacks", published as a conference paper at the International Conference on Learning Representations (ICLR), 2025 (https://openreview.net/pdf?id=3xpTXF5ALZ).
+This repository contains source code samples for reproducing the experiments of our proposed AI2TALE method in our paper "AI2TALE: An Innovative Information Theory-based Approach for Learning to Localize Phishing Attacks", published as a conference paper at the International Conference on Learning Representations (ICLR), 2025 (https://openreview.net/pdf?id=3xpTXF5ALZ). Refer to the AI2TALE.png file for the poster of our paper.
 
 ## Dependencies
 We implemented our proposed AI2TALE method in Python using Tensorflow (version 2.9.0) and Python (version 3.9). Other required packages are keras, scikit-learn, numpy, scipy, nltk, and pickle.
